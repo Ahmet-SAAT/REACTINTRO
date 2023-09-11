@@ -15,6 +15,7 @@ import Children from "./components/05-props/04-children";
 import DijitalSaatUygulamasi2 from "./components/06-digital-saat-uygulamasi2/06-digital-saat-uygulamasi2"
 import Images from "./components/07-images/01-images";
 import ImageGallery from "./components/07-images/02-image-gallery";
+import ProfileCard from "./components/08-profile-card/profile-card";
 
 const App = () => {
     return (
@@ -39,6 +40,49 @@ const App = () => {
             <DijitalSaatUygulamasi2 color="white" backgroundColor="red" />
             <Images />
             <ImageGallery />
+               {/* TODO: render konusunda array'lerin component disinda kalmasi gerektiginde tekrardan duzenlenecek */}
+               <ProfileCard
+                src="profile-card.jpg"
+                name="Walker"
+                location="Nashville, Tenesse"
+                statistics={
+                    [
+                        {
+                            stat: 2,
+                            title: "Shot"
+                        },
+                        {
+                            stat: 300,
+                            title: "Followers"
+                        },
+                        {
+                            stat: 150,
+                            title: "Following"
+                        }
+                    ]
+                }
+            />
+            <ProfileCard
+                src="profile.jpg"
+                name="Zisan"
+                location="Istanbul, Turkey"
+                statistics={
+                    [
+                        {
+                            stat: 8,
+                            title: "Shot"
+                        },
+                        {
+                            stat: 1000,
+                            title: "Followers"
+                        },
+                        {
+                            stat: 50,
+                            title: "Following"
+                        }
+                    ]
+                }
+            />
         </div>
     )
 };
