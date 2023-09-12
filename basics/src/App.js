@@ -16,6 +16,12 @@ import DijitalSaatUygulamasi2 from "./components/06-digital-saat-uygulamasi2/06-
 import Images from "./components/07-images/01-images";
 import ImageGallery from "./components/07-images/02-image-gallery";
 import ProfileCard from "./components/08-profile-card/profile-card";
+import BootstrapKlasikYontem from "./components/09-bootstrap/01-bootstrap-klasik-yontem";
+import BootStrapComponents from "./components/09-bootstrap/02-bootstrap-component";
+import BootstrapButton from "./components/09-bootstrap/03-bootstrap-button";
+import MaterialIcons from "./components/10-icons/02-material-icons";
+import Events from "./components/11-event/event";
+import ProductShop from "./components/product-shop/product-shop/product-shop";
 
 const App = () => {
     return (
@@ -81,8 +87,14 @@ const App = () => {
                             title: "Following"
                         }
                     ]
-                }
-            />
+                }/>
+                <BootstrapKlasikYontem/>
+                <BootStrapComponents/>
+                <BootstrapButton variant="outline-primary" disabled />
+                <MaterialIcons />
+                <Events />
+                <ProductShop/>
+        
         </div>
     )
 };
