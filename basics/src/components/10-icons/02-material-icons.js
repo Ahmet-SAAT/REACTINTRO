@@ -1,6 +1,7 @@
 import { Container } from "react-bootstrap";
 import AcUnit from '@mui/icons-material/AcUnit';
 import { AccountBalance, Adb } from '@mui/icons-material';
+import { ThemeProvider } from '@mui/material';
 const MaterialIcons = () => {
     return (
         <ThemeProvider theme="{theme}">

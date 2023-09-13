@@ -21,7 +21,9 @@ import BootStrapComponents from "./components/09-bootstrap/02-bootstrap-componen
 import BootstrapButton from "./components/09-bootstrap/03-bootstrap-button";
 import MaterialIcons from "./components/10-icons/02-material-icons";
 import Events from "./components/11-event/event";
-import ProductShop from "./components/product-shop/product-shop/product-shop";
+import ProductShop from "./components/12-product-shop/product-shop";
+import State from "./components/13-usestate/state";
+import Counter from "./components/14-counter/counter";
 
 const App = () => {
     return (
@@ -94,6 +96,8 @@ const App = () => {
                 <MaterialIcons />
                 <Events />
                 <ProductShop/>
+                <State />
+            <Counter />
         
         </div>
     )
