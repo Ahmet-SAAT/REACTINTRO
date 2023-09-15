@@ -25,6 +25,8 @@ import ProductShop from "./components/12-product-shop/product-shop";
 import State from "./components/13-usestate/state";
 import Counter from "./components/14-counter/counter";
 import Birthday from "./components/15-birthday/birthday";
+import Useeffect from "./components/16-use-effect/useeffect";
+import CounterTitle from "./components/17-counter-title.js/counter-title";
 
 const App = () => {
     return (
@@ -100,6 +102,8 @@ const App = () => {
                 <State />
             <Counter />
             <Birthday />
+            <Useeffect />
+            <CounterTitle/>
         
         </div>
     )
