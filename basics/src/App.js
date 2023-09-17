@@ -27,6 +27,13 @@ import Counter from "./components/14-counter/counter";
 import Birthday from "./components/15-birthday/birthday";
 import Useeffect from "./components/16-use-effect/useeffect";
 import CounterTitle from "./components/17-counter-title.js/counter-title";
+import DigitalSaatUygulamasi3 from "./components/18-digital-saat3/digital-saat-uygulamasi3";
+//import UseRef from "./components/19-useref/useref";
+import ClassTypeComponent from "./components/20-component-types/01-class-type-component";
+import FunctionTypeComponent from "./components/20-component-types/02-function-type-component";
+import Fetch2 from "./components/21-fetch/02-fetch";
+import UserCard from "./components/21-fetch/02-user-card";
+import Fetch1 from "./components/21-fetch/fetch";
 
 const App = () => {
     return (
@@ -104,6 +111,12 @@ const App = () => {
             <Birthday />
             <Useeffect />
             <CounterTitle/>
+            <DigitalSaatUygulamasi3/>
+            <FunctionTypeComponent/>
+            <ClassTypeComponent/>
+            <Fetch1/>
+            <Fetch2/>
+            <UserCard/>
         
         </div>
     )
