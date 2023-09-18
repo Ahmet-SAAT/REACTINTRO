@@ -34,6 +34,8 @@ import FunctionTypeComponent from "./components/20-component-types/02-function-t
 import Fetch2 from "./components/21-fetch/02-fetch";
 import UserCard from "./components/21-fetch/02-user-card";
 import Fetch1 from "./components/21-fetch/fetch";
+import Countries from "./components/22-axios/countries";
+import ParentComponent from "./components/23-lift-state/parent-component";
 
 const App = () => {
     return (
@@ -117,6 +119,8 @@ const App = () => {
             <Fetch1/>
             <Fetch2/>
             <UserCard/>
+            <Countries/>
+            <ParentComponent/>
         
         </div>
     )
