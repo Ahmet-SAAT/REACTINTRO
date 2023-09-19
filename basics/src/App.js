@@ -36,6 +36,7 @@ import UserCard from "./components/21-fetch/02-user-card";
 import Fetch1 from "./components/21-fetch/fetch";
 import Countries from "./components/22-axios/countries";
 import ParentComponent from "./components/23-lift-state/parent-component";
+import Form1 from "./components/24-form.js/01-form";
 
 const App = () => {
     return (
@@ -121,6 +122,7 @@ const App = () => {
             <UserCard/>
             <Countries/>
             <ParentComponent/>
+            <Form1/>
         
         </div>
     )
