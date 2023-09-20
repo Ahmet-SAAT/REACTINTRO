@@ -1,4 +1,4 @@
-import X from "./components/01-my-house/01-my-house";
+/*import X from "./components/01-my-house/01-my-house";
 import { Armutlar, Muzlar } from "./components/01-my-house/01-my-house";
 import Jsx1 from "./components/02-jsx/01-jsx";
 import Jsx2 from "./components/02-jsx/02-jsx";
@@ -36,12 +36,19 @@ import UserCard from "./components/21-fetch/02-user-card";
 import Fetch1 from "./components/21-fetch/fetch";
 import Countries from "./components/22-axios/countries";
 import ParentComponent from "./components/23-lift-state/parent-component";
+*/
 import Form1 from "./components/24-form.js/01-form";
+import Form2 from "./components/24-form.js/02-form";
+import Form3 from "./components/24-form.js/03-form";
+import Form4 from "./components/24-form.js/04-form";
+
+
 
 const App = () => {
     return (
         <div>
-            <X />
+       
+       {/*  <X />
             <Armutlar />
             <Muzlar />
             <Jsx1 />
@@ -57,12 +64,12 @@ const App = () => {
             <Greetings />
             <Children>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nesciunt eos facere et repellendus quasi ipsam ab tempore earum porro saepe sapiente nemo asperiores, cupiditate nobis officiis modi, quas minus!
-            </Children>
-            <DijitalSaatUygulamasi2 color="white" backgroundColor="red" />
+            </Children> */}  
+            
+          {/*   <DijitalSaatUygulamasi2 color="white" backgroundColor="red" />
             <Images />
             <ImageGallery />
-               {/* TODO: render konusunda array'lerin component disinda kalmasi gerektiginde tekrardan duzenlenecek */}
-               <ProfileCard
+           <ProfileCard
                 src="profile-card.jpg"
                 name="Walker"
                 location="Nashville, Tenesse"
@@ -83,7 +90,9 @@ const App = () => {
                     ]
                 }
             />
-            <ProfileCard
+         
+         
+         <ProfileCard
                 src="profile.jpg"
                 name="Zisan"
                 location="Istanbul, Turkey"
@@ -122,7 +131,18 @@ const App = () => {
             <UserCard/>
             <Countries/>
             <ParentComponent/>
-            <Form1/>
+            
+            
+         */}  
+           <Form1/>
+           <Form2/>
+           <Form3/>
+           <Form4/>
+            
+              
+              
+            
+           
         
         </div>
     )
