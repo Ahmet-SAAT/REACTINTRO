@@ -37,10 +37,13 @@ import Fetch1 from "./components/21-fetch/fetch";
 import Countries from "./components/22-axios/countries";
 import ParentComponent from "./components/23-lift-state/parent-component";
 */
-import Form1 from "./components/24-form.js/01-form";
-import Form2 from "./components/24-form.js/02-form";
-import Form3 from "./components/24-form.js/03-form";
-import Form4 from "./components/24-form.js/04-form";
+import Form1 from "./components/24-form/01-form";
+import Form2 from "./components/24-form/02-form";
+import Form3 from "./components/24-form/03-form";
+import Form4 from "./components/24-form/04-form";
+import Form5 from "./components/24-form/05-form";
+import FormikYup1 from "./components/25-formik-yup/01-formik-yup";
+import FormikYup2 from "./components/25-formik-yup/02-formik-yup";
 
 
 
@@ -138,6 +141,9 @@ const App = () => {
            <Form2/>
            <Form3/>
            <Form4/>
+           <Form5/>
+           <FormikYup1/>
+           <FormikYup2/>
             
               
               
