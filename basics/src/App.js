@@ -1,4 +1,4 @@
-/*import X from "./components/01-my-house/01-my-house";
+import X from "./components/01-my-house/01-my-house";
 import { Armutlar, Muzlar } from "./components/01-my-house/01-my-house";
 import Jsx1 from "./components/02-jsx/01-jsx";
 import Jsx2 from "./components/02-jsx/02-jsx";
@@ -28,7 +28,6 @@ import Birthday from "./components/15-birthday/birthday";
 import Useeffect from "./components/16-use-effect/useeffect";
 import CounterTitle from "./components/17-counter-title.js/counter-title";
 import DigitalSaatUygulamasi3 from "./components/18-digital-saat3/digital-saat-uygulamasi3";
-//import UseRef from "./components/19-useref/useref";
 import ClassTypeComponent from "./components/20-component-types/01-class-type-component";
 import FunctionTypeComponent from "./components/20-component-types/02-function-type-component";
 import Fetch2 from "./components/21-fetch/02-fetch";
@@ -36,7 +35,7 @@ import UserCard from "./components/21-fetch/02-user-card";
 import Fetch1 from "./components/21-fetch/fetch";
 import Countries from "./components/22-axios/countries";
 import ParentComponent from "./components/23-lift-state/parent-component";
-*/
+
 import Form1 from "./components/24-form/01-form";
 import Form2 from "./components/24-form/02-form";
 import Form3 from "./components/24-form/03-form";
@@ -45,113 +44,101 @@ import Form5 from "./components/24-form/05-form";
 import FormikYup1 from "./components/25-formik-yup/01-formik-yup";
 import FormikYup2 from "./components/25-formik-yup/02-formik-yup";
 
-
-
 const App = () => {
-    return (
-        <div>
-       
-       {/*  <X />
-            <Armutlar />
-            <Muzlar />
-            <Jsx1 />
-            <Jsx2 />
-            <Jsx3 />
-            <Jsx4 />
-            <InlineStyling />
-            <InternalStyling />
-            <ExternalStyling />
-            <ModuleStyling />
-            <Sass />
-            <DijitalSaatUygulamasi1 />
-            <Greetings />
-            <Children>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nesciunt eos facere et repellendus quasi ipsam ab tempore earum porro saepe sapiente nemo asperiores, cupiditate nobis officiis modi, quas minus!
-            </Children> */}  
-            
-          {/*   <DijitalSaatUygulamasi2 color="white" backgroundColor="red" />
-            <Images />
-            <ImageGallery />
-           <ProfileCard
-                src="profile-card.jpg"
-                name="Walker"
-                location="Nashville, Tenesse"
-                statistics={
-                    [
-                        {
-                            stat: 2,
-                            title: "Shot"
-                        },
-                        {
-                            stat: 300,
-                            title: "Followers"
-                        },
-                        {
-                            stat: 150,
-                            title: "Following"
-                        }
-                    ]
-                }
-            />
-         
-         
-         <ProfileCard
-                src="profile.jpg"
-                name="Zisan"
-                location="Istanbul, Turkey"
-                statistics={
-                    [
-                        {
-                            stat: 8,
-                            title: "Shot"
-                        },
-                        {
-                            stat: 1000,
-                            title: "Followers"
-                        },
-                        {
-                            stat: 50,
-                            title: "Following"
-                        }
-                    ]
-                }/>
-                <BootstrapKlasikYontem/>
-                <BootStrapComponents/>
-                <BootstrapButton variant="outline-primary" disabled />
-                <MaterialIcons />
-                <Events />
-                <ProductShop/>
-                <State />
-            <Counter />
-            <Birthday />
-            <Useeffect />
-            <CounterTitle/>
-            <DigitalSaatUygulamasi3/>
-            <FunctionTypeComponent/>
-            <ClassTypeComponent/>
-            <Fetch1/>
-            <Fetch2/>
-            <UserCard/>
-            <Countries/>
-            <ParentComponent/>
-            
-            
-         */}  
-           <Form1/>
-           <Form2/>
-           <Form3/>
-           <Form4/>
-           <Form5/>
-           <FormikYup1/>
-           <FormikYup2/>
-            
-              
-              
-            
-           
-        
-        </div>
-    )
+  return (
+    <div>
+      <X />
+      <Armutlar />
+      <Muzlar />
+      <Jsx1 />
+      <Jsx2 />
+      <Jsx3 />
+      <Jsx4 />
+      <InlineStyling />
+      <InternalStyling />
+      <ExternalStyling />
+      <ModuleStyling />
+      <Sass />
+      <DijitalSaatUygulamasi1 />
+      <Greetings />
+      <Children>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus
+        nesciunt eos facere et repellendus quasi ipsam ab tempore earum porro
+        saepe sapiente nemo asperiores, cupiditate nobis officiis modi, quas
+        minus!
+      </Children>
+
+      <DijitalSaatUygulamasi2 color="white" backgroundColor="red" />
+      <Images />
+      <ImageGallery />
+      <ProfileCard
+        src="profile-card.jpg"
+        name="Walker"
+        location="Nashville, Tenesse"
+        statistics={[
+          {
+            stat: 2,
+            title: "Shot",
+          },
+          {
+            stat: 300,
+            title: "Followers",
+          },
+          {
+            stat: 150,
+            title: "Following",
+          },
+        ]}
+      />
+
+      <ProfileCard
+        src="profile.jpg"
+        name="Zisan"
+        location="Istanbul, Turkey"
+        statistics={[
+          {
+            stat: 8,
+            title: "Shot",
+          },
+          {
+            stat: 1000,
+            title: "Followers",
+          },
+          {
+            stat: 50,
+            title: "Following",
+          },
+        ]}
+      />
+      <BootstrapKlasikYontem />
+      <BootStrapComponents />
+      <BootstrapButton variant="outline-primary" disabled />
+      <MaterialIcons />
+      <Events />
+      <ProductShop />
+      <State />
+      <Counter />
+      <Birthday />
+      <Useeffect />
+      <CounterTitle />
+      <DigitalSaatUygulamasi3 />
+      <FunctionTypeComponent />
+      <ClassTypeComponent />
+      <Fetch1 />
+      <Fetch2 />
+      <UserCard />
+      <Countries />
+      <ParentComponent />
+
+      <Form1 />
+      <Form2 />
+      <Form3 />
+      <Form4 />
+      <Form5 />
+      <FormikYup1 />
+      <FormikYup2 />
+    </div>
+  );
 };
 
 export default App;
