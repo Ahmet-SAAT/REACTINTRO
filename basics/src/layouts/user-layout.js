@@ -7,7 +7,7 @@ import Header from '../components/header/header';
     return (
         <div>
             <Header />
-            <Outlet /> //outlet ifadesi ile childen olarak belitigimiz sayfalar glecek
+            <Outlet /> //outlet ifadesi ile childen olarak belitigimiz sayfalar gelecek
             <footer>
                 &copy; 2023 Techpro Education
             </footer>
