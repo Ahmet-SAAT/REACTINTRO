@@ -43,6 +43,10 @@ const LoginPage = () => {
             const user = await response.json();
             console.log(user);
             authDispatch(login(user));
+            if (user.message) {
+                authDispatch(logout());
+                return;
+            }
             localStorage.setItem("token", user.token);
             navigate("/");
         } catch (error) {
